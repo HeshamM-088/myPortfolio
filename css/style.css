@@ -606,6 +606,32 @@ a:focus {
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
+.timeline-text ol{
+    text-align: center;
+    position: relative;
+}
+
+.timeline-text ol::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    height: 2px;
+    background-color: darkgray;
+    bottom: -5px;
+    transform: translateX(-40%);
+}
+
+.training{
+    list-style: inside lower-roman;
+    margin-bottom: 5px;
+}
+
+.training ul{
+    padding-top: 5px;
+}
+
+
 .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
     border-left: 5px solid #dddddd;
