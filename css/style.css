@@ -260,7 +260,7 @@ a:focus {
     }
     .fa-sun-bright , .fa-moon{
         left: 50%;
-        top: 25px;
+        bottom: 5%;
     }
 }
 
