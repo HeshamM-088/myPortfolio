@@ -91,3 +91,25 @@
     });
 
 })(jQuery);
+
+/***********************/
+
+/*Dark and Light mood*/
+
+let sun = document.querySelector(".fa-sun-bright");
+
+let moon = document.querySelector(".fa-moon");
+
+moon.addEventListener("click", () =>{
+    document.body.classList.add("dark");
+    sun.style.display = "block";
+    moon.style.display = "none";
+
+})
+
+sun.addEventListener("click", () =>{
+    document.body.classList.remove("dark");
+    sun.style.display = "none";
+    moon.style.display = "block";
+
+})

@@ -11,6 +11,7 @@ body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
+    transition: 1s all;
 }
 
 h1,
@@ -224,6 +225,20 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #288afff2;
     }
+}
+
+.dark{
+    background-color: #000000;
+}
+
+.fa-sun-bright{
+    display: none;
+}
+
+.fa-sun-bright , .fa-moon{
+    position: absolute;
+    cursor: pointer;
+    color: black;
 }
 
 @media (max-width: 991.98px) {
