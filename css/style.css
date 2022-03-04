@@ -258,6 +258,10 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+    .fa-sun-bright , .fa-moon{
+        left: 50%;
+        top: 25px;
+    }
 }
 
 
